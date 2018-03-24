@@ -18,6 +18,11 @@ namespace WebFormsDi.Controls
             _messageService = messageService ?? throw new ArgumentNullException(nameof(messageService));
         }
 
+        protected override void OnInit(EventArgs e)
+        {
+            base.OnInit(e);
+        }
+
         protected void Page_Init(object sender, EventArgs e)
         {
             InitLabel.Text = _messageService.GetMessage();
