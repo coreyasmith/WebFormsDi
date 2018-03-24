@@ -7,19 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebFormsDi {
+namespace WebFormsDi.Controls {
     
     
-    public partial class Default {
-        
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+    public partial class DiUserControl {
         
         /// <summary>
         /// InitLabel control.
@@ -38,14 +29,5 @@ namespace WebFormsDi {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LoadLabel;
-        
-        /// <summary>
-        /// DiUserControl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebFormsDi.Controls.DiUserControl DiUserControl;
     }
 }
