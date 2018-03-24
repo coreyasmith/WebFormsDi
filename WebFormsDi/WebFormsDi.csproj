@@ -107,14 +107,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\HttpContextExtensions.cs" />
+    <Compile Include="Infrastructure\SimpleInjectorPageHandlerFactory.cs" />
     <Compile Include="Models\AbstractMessageService.cs" />
     <Compile Include="Models\DefaultMessageService.cs" />
     <Compile Include="Models\IMessageService.cs" />
+    <Compile Include="Models\InjectedMessageService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
